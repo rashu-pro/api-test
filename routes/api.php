@@ -20,4 +20,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::apiResource('test-api', ApiTest::class);
+Route::apiResource('/testApi', ApiTest::class);
